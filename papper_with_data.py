@@ -72,15 +72,23 @@ Person 80%
   
 Deblur-YOLO: Real-Time Object Detection with Efficient Blind Motion Deblurring - 2021 - with dataset COCO
 
-                 mAP   aero bike bird boat bottle bus   car   cat   chair  cow   table  dog    horse  mbike  person   plant   sheep   sofa   train    tv
-Clean Image      58.5  73.7 46.9 44.4 40.6 42.3   75.2  58.5  73.0  39.8   52.3  41.4   73.2   77.5   61.7   69.1     42.4    59.9    52.1   75.4     69.9
-Blur Image       29.7  43.3 16.9 15.3 14.8 10.4   51.8  34.5  40.4  13.5   12.6  26.9   31.7   30.9   28.2   42.8     19.0    23.7    33.7   57.6     45.4
-DeepDeblur       51.7  64.9 36.9 35.2 35.3 32.2   73.1  53.7  70.3  33.9   40.8  40.1   59.6   68.1   51.9   65.3     35.2    46.8    48.5   72.8     68.4
-DynamicDeblur    56.0  70.6 43.2 41.4 41.4 36.8   75.3  57.1  72.6  36.6   45.8  40.0   68.2   72.7   56.3   67.0     39.8    58.4    49.9   75.3     71.7
-SRN              52.3  70.1 38.2 35.8 35.8 31.8   71.9  53.4  69.2  33.1   39.4  39.8   63.4   66.6   53.5   64.1     35.1    51.7    48.0   75.3     69.0
-DeblurGANv2(I-R) 42.0  55.0 28.6 26.6 30.2 24.9   61.4  44.9  53.5  27.5   35.4  32.4   47.4   53.7   39.6   51.8     24.8    41.2    39.2   65.2     55.9
-DeblurGANv2(M)   40.8  52.2 27.4 25.0 28.9 24.3   61.0  44.3  53.7  25.9   31.7  30.5   45.2   49.4   39.2   50.8     25.0    38.6    40.6   66.0     56.8
-Deblur-Yolo      47.5  55.5 33.8 30.0 37.7 29.7   67.7  51.1  62.6  31.2   39.5  41.2   51.4   54.7   44.9   56.1     33.6    53.9    50.2   72.8     52.2
+                     
+Clean Image      
+mAP:58.5  aero:73.7 bike:46.9 bird:44.4 boat:40.6 bottle:42.3   bus:75.2  car:58.5  cat:73.0  chair:39.8   cow:52.3  table:41.4   dog:73.2   horse:77.5   mbike:61.7   person:69.1     plant:42.4    sheep:59.9    sofa:52.1   train:75.4     tv:69.9
+Blur Image       
+mAP:29.7  aero:43.3 bike:16.9 bird:15.3 boat:14.8 bottle:10.4   bus:51.8  car:34.5  cat:40.4  chair:13.5   cow:12.6  table:26.9   dog:31.7   horse:30.9   mbike:28.2   person:42.8     plant:19.0    sheep:23.7    sofa:33.7   train:57.6     tv:45.4
+DeepDeblur       
+mAP:51.7  aero:64.9 bike:36.9 bird:35.2 boat:35.3 bottle:32.2   bus:73.1  car:53.7  cat:70.3  chair:33.9   cow:40.8  table:40.1   dog:59.6   horse:68.1   mbike:51.9   person:65.3     plant:35.2    sheep:46.8    sofa:48.5   train:72.8     tv:68.4
+DynamicDeblur    
+mAP:56.0  aero:70.6 bike:43.2 bird:41.4 boat:41.4 bottle:36.8   bus:75.3  car:57.1  cat:72.6  chair:36.6   cow:45.8  table:40.0   dog:68.2   horse:72.7   mbike:56.3   person:67.0     plant:39.8    sheep:58.4    sofa:49.9   train:5.3     tv:71.7
+SRN              
+mAP:52.3  aero:70.1 bike:38.2 bird:35.8 boat:35.8 bottle:31.8   bus:71.9  car:53.4  cat:69.2  chair:33.1   cow:39.4  table:39.8   dog:63.4   horse:66.6   mbike:53.5   person:64.1     plant:35.1    sheep:51.7    sofa:48.0   train:75.3     tv:69.0
+DeblurGANv2(I-R) 
+mAP:42.0  aero:55.0 bike:28.6 bird:26.6 boat:30.2 bottle:24.9   bus:61.4  car:44.9  cat:53.5  chair:27.5   cow:35.4  table:32.4   dog:47.4  horse:53.7   mbike:39.6   person:51.8     plant:24.8    sheep:41.2    sofa:39.2   train:65.2     tv:55.9
+DeblurGANv2(M)   
+mAP:40.8  aero:52.2 bike:27.4 bird:25.0 boat:28.9 bottle:24.3   bus:61.0  car:44.3  cat:53.7  chair:25.9   cow:31.7  table:30.5   dog:45.2   horse:49.4   mbike:39.2   person:50.8     plant:25.0    sheep:38.6    sofa:40.6   train:66.0     tv:56.8
+Deblur-Yolo      
+mAP:47.5  aero:55.5 bike:33.8 bird:30.0 boat:37.7 bottle:29.7   bus:67.7  car:51.1  cat:62.6  chair:31.2   cow:39.5  table:41.2   dog:51.4   horse:54.7   mbike:44.9   person:56.1     plant:33.6    sheep:53.9    sofa:50.2   train:72.8     tv:52.2
 
 
 Design and Implementation of Real-time Object Detection for Blind using Convolutional Neural Network - 2022 - with dataset COCO
@@ -96,6 +104,7 @@ Laptop 18 2 90%
 Handphone 19 1 95%
 Car 19 1 95%
 Book 19 1 95%
+ 
 A Mobile Application For The Visually Handicapped - 2021 - with dataset COCO
   A clock is detected (96%)
   A scissor is detected (%87).
@@ -120,6 +129,7 @@ Utensils 260 97.2%
 Food 300 96.5%
 Mobile phones 230 98.6%
 
+Table III
 Chair 0.81%
 Person 0.63%
 Fork 0.83%
@@ -130,61 +140,44 @@ Broccoli 0.75%
 Smart Vision based Assistant for Visually Impaired - 2022 -  with dataset COCO
 
 Test Cases Object Predicted
-Object
-Failure
-Cases Accuracy
-1 Person Person None 99%
-2 Person
-Cellphone
-Person
-Cellphone None 97%
-97%
-3
-Bottle
-Scissors
-Toothbrush
-Comb
-Bottle
-Scissors
-Toothbrush
-Comb
-79%
-90%
-83%
-4 Teddybear Teddybear None 91%
-5 Cellphone
-Fork
-Cellphone
-Fork None 93%
-93%
-6
-Teddybear
-Remote
-Cellphone
-Teddybear
-Remote
-Cellphone
-None
-70%
-80%
-85%
-7 Knife
-Mouse
-Knife
-Mouse None 85%
-87%
-8 Laptop
-Cup
-Laptop
-Cup None Above
-75%
-9
-Knife
-Spoon
-Banana
-Knife
-Spoon Banana Above
-70%
+
+Caso 1 detecção de um objeto
+Person 99%
+ 
+Caso 2 detecção de vários objetos
+Person 97%
+Cellphone 97%
+ 
+Caso 3 detecção de vários objetos
+Bottle 79%
+Scissors 90%
+Toothbrush 83%
+
+Caso 4 detecção de um objeto
+Teddybear 91%
+ 
+Caso 5 detecção de vários objetos
+Cellphone 93%
+Fork 93%
+
+Caso 6 detecção de vários objetos
+Teddybear 70%
+Remote 80%
+Cellphone 85%
+
+Caso 7 detecção de vários objetos
+Knife 85%
+Mouse 87%
+ 
+Caso 8 detecção de vários objetos
+Laptop 75%
+Cup 75%
+ 
+Caso 9 detecção de vários objetos
+Knife 70%
+Spoon 70%
+Banana 70%
+
   
 
 Real-Time Object Detection for Visually Challenged People - 2020 - with dataset COCO
